@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_calendar"
+            android:title="Calendario"
+            android:icon="@drawable/ic_calendar"/>
+        <item
+            android:id="@+id/nav_ticket"
+            android:title="Ticket"
+            android:icon="@drawable/ic_card_text"/>
+        <item
+            android:id="@+id/nav_segnaposto"
+            android:title="Segnaposto"
+            android:icon="@drawable/ic_baseline_menu"/>
+        <item
+            android:id="@+id/nav_equipment"
+            android:title="Attrezzatura"
+            android:icon="@drawable/ic_hammer"/>
+        <item
+            android:id="@+id/nav_forecast"
+            android:title="Previsioni"
+            android:icon="@drawable/ic_cloud_sun"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:icon="@drawable/ic_question_circle"/>
+    </group>
+
+
+</menu>
